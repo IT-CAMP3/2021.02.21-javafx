@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pl.camp.it.controllers.UserController">
+
+    <VBox AnchorPane.topAnchor="10.0"
+          AnchorPane.bottomAnchor="10.0"
+          AnchorPane.leftAnchor="10.0"
+          AnchorPane.rightAnchor="10.0">
+        <Label prefWidth="200.0" fx:id="helloLabel"/>
+        <Label prefWidth="200.0" text="Twoje hasło:"/>
+        <Label prefWidth="200.0" fx:id="passwordLabel"/>
+        <Label prefWidth="200.0" fx:id="ageLabel"/>
+        <BorderPane>
+            <center>
+                <Button text="OK" prefWidth="60.0" onAction="#back"/>
+            </center>
+        </BorderPane>
+    </VBox>
+
+</AnchorPane>

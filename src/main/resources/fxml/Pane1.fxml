@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="pl.camp.it.controllers.Pane1Controller">
+    <children>
+        <Button text="Przycisk" fx:id="przycisk1" onAction="#click"/>
+        <CheckBox text="Zaznacz albo nie" fx:id="checkBox" onAction="#click" onMouseEntered="#mouseEnteredAction"/>
+        <Button text="Przycisk 2" fx:id="przycisk2" onAction="#button2click"/>
+    </children>
+</FlowPane>
